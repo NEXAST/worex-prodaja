@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worex Prodaja | Premium Gaming Store</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@700;900&display=swap" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="glass-header">
+        <div class="container nav-wrapper">
+            <div class="logo">WOREX<span>.</span></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">Početna</a></li>
+                    <li><a href="#ponuda">Ponuda</a></li>
+                    <li><a href="#placanje">Plaćanje</a></li>
+                </ul>
+            </nav>
+            <div class="status-badge">
+                <span class="pulse-dot green"></span> Status Podrške: Online
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="trust-badge">
+                <i class="fas fa-users"></i> <span id="user-count">2200</span>+ Zadovoljnih korisnika
+            </div>
+            <h1 class="gradient-text">Worex Prodaja</h1>
+            <p class="hero-sub">Najbrža isporuka gaming naloga i valuta na Balkanu. 
+                <span class="nexa-tag"><span class="pulse-dot green"></span> Nexa Automation Active</span>
+            </p>
+            <a href="#ponuda" class="cta-button shimmer">
+                Započni kupnju odmah <i class="fas fa-bolt"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- Premium Offer Grid -->
+    <section id="ponuda" class="offers">
+        <div class="container">
+            <div class="grid-3x2">
+                <!-- Card 1: Fortnite -->
+                <div class="card">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1589241062272-c0a000072dfa?q=80&w=400" alt="Fortnite" class="bg-img">
+                        <img src="https://www.pngarts.com/files/11/Fortnite-Renegade-Raider-PNG-High-Quality-Image.png" alt="Renegade Raider" class="character-3d">
+                    </div>
+                    <div class="card-content">
+                        <h3>Fortnite Items</h3>
+                        <p>V-Bucks, skinovi i nalozi.</p>
+                        <button class="btn-card">Pogledaj</button>
+                    </div>
+                </div>
+                <!-- Card 2: Valorant -->
+                <div class="card">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1614027126211-175f3398dfb3?q=80&w=400" alt="Valorant" class="bg-img">
+                        <img src="https://purepng.com/public/uploads/large/purepng.com-valorant-jett-character-standingvalorant-jett-agent-wind-character-jett-standing-1701528653600lre5f.png" alt="Jett" class="character-3d">
+                    </div>
+                    <div class="card-content">
+                        <h3>Valorant Points</h3>
+                        <p>Instant aktivacija na vaš nalog.</p>
+                        <button class="btn-card">Pogledaj</button>
+                    </div>
+                </div>
+                <!-- Card 3: Counter-Strike -->
+                <div class="card">
+                    <div class="card-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?q=80&w=400" alt="Gaming" class="bg-img">
+                    </div>
+                    <div class="card-content">
+                        <h3>CS2 Skins</h3>
+                        <p>Marketplace za najređe skinove.</p>
+                        <button class="btn-card">Pogledaj</button>
+                    </div>
+                </div>
+                <!-- Dodati još 3 kartice po istom principu -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Payment Section -->
+    <section id="placanje" class="payment-bar">
+        <div class="container payment-flex">
+            <i class="fab fa-skrill" title="Skrill"></i>
+            <i class="fas fa-money-bill-wave" title="Xbon"></i>
+            <i class="fab fa-bitcoin" title="Crypto"></i>
+            <i class="fas fa-university" title="Uplatnica"></i>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Worex Prodaja. Sva prava zadržana.</p>
+            <p class="nexa-footer">Powered by <strong>Nexa Studio Automation</strong></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
